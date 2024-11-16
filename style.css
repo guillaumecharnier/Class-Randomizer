@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://bnetcmsus-a.akamaihd.net/cms/blog_header/ki/KI5Z7EH68HEA1589910860503.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: 0 2%;
+    padding: 10px;
+}
+
+.normal {
+    font-size: 16px;
+}
+
+.highlight {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5733;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.combinaison-list-container {
+    max-height: 500px;
+    overflow-y: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.combinaison {
+    margin: 5px 0;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
